@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dogs",
+  "info": {
+    "singularName": "dog",
+    "pluralName": "dogs",
+    "displayName": "dog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "titles": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "birth": {
+      "type": "date"
+    },
+    "health": {
+      "type": "text"
+    },
+    "results": {
+      "type": "text"
+    },
+    "about": {
+      "type": "text"
+    },
+    "parents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "litter-components.parents"
+    }
+  }
+}

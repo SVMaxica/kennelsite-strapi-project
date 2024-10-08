@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "litters",
+  "info": {
+    "singularName": "litter",
+    "pluralName": "litters",
+    "displayName": "litter",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "littername": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "birth": {
+      "type": "date"
+    },
+    "bitches": {
+      "type": "integer"
+    },
+    "males": {
+      "type": "integer"
+    },
+    "parents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "litter-components.parents"
+    },
+    "Puppy": {
+      "type": "component",
+      "repeatable": true,
+      "component": "litter-components.puppy"
+    }
+  }
+}

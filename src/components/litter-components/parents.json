@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_litter_components_parents",
+  "info": {
+    "displayName": "parents"
+  },
+  "options": {},
+  "attributes": {
+    "sire_name": {
+      "type": "string"
+    },
+    "sire_titles": {
+      "type": "string"
+    },
+    "dam_name": {
+      "type": "string"
+    },
+    "dam_titles": {
+      "type": "string"
+    }
+  }
+}

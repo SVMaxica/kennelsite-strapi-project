@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_litter_components_puppies",
+  "info": {
+    "displayName": "Puppy",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "titles": {
+      "type": "string"
+    },
+    "owner": {
+      "type": "string"
+    },
+    "results": {
+      "type": "blocks"
+    },
+    "hometown": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
